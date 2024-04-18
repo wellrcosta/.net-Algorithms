@@ -1,0 +1,6 @@
+﻿services:
+  algorithms:
+    image: algorithms
+    build:
+      context: .
+      dockerfile: Dockerfile
